@@ -1,0 +1,11 @@
+.TodoList {
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
+  }
+
+  p{
+    margin-left: 56px;
+    margin-top: 56px;
+    font-size: 3rem;
+  }

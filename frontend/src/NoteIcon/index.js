@@ -1,0 +1,25 @@
+import { ReactComponent as CheckSVG } from './archive.svg';
+import { ReactComponent as DeleteSVG } from './delete.svg';
+import { ReactComponent as EditSVG } from './edit.svg';
+import { ReactComponent as AddSVG } from './add.svg';
+import './NoteIcon.css';
+
+const iconTypes = {
+  "check": (color) => <CheckSVG className="Icon-svg" fill={color} />,
+  "delete": (color) => <DeleteSVG className="Icon-svg" fill={color} />,
+  "edit": (color) => <EditSVG className="Icon-svg" fill={color} /> ,
+  "add": (color) => <AddSVG className="Icon-svg" fill={color} /> 
+};
+
+function NoteIcon({ type, color, onClick }) {
+  return (
+    <span
+      className={`Icon-container Icon-container-${type}`}
+      onClick={onClick}
+    >
+      {iconTypes[type](color)}
+    </span>
+  )
+}
+
+export { NoteIcon };

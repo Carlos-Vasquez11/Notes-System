@@ -1,0 +1,13 @@
+button {
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    outline: none;
+  }
+  
+  .active {
+    background-color: #ccc;
+  }
+  
