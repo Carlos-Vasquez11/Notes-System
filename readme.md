@@ -1,13 +1,15 @@
-### Note Manager
+# Note Manager
 
-IMG: https://ibb.co/4Nkk6Y4
+    This project consist on a note manager that allows you to
+    create, edit and delete notes.
+    You can also tag them and then filter them using those tags
 
-Once deployed enter here: http://localhost:8081/
+### Notes 📝
+    
+    The project was a challenge made in 3 days.
+    You can visualize the requirements in the "CHALLENGE.md" file
 
-## Notes 📝
-    The project is working and phase 1 & phase 2 are implemented
-
-## STACK 🚀
+### STACK 🚀
 • React 18  
 • Node 18  
 • Java 17  
@@ -15,13 +17,16 @@ Once deployed enter here: http://localhost:8081/
 • MySQL 8.0.31  
 • Docker 24.0.7
 
-## Ports 🔗
+### Ports 🔗
 
 • React:  8081:80  
 • Spring: 8080:8080  
 • MySQL:  13306:3306  
 
-## How to run the project 🤔
+### How to run the project 🤔
+
+• You only need to have installed docker, because the projects are compiled in docker.
+
 • run the script deploy.sh with ./deploy.sh
 
-Teorically you only need to have installed docker, because the projects are compiled in docker.
+• Once deployed enter here: http://localhost:8081/
