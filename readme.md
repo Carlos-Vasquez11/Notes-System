@@ -25,7 +25,8 @@
 
 ### How to run the project 🤔
 
-• You only need to have installed docker, because the projects are compiled in docker.
+• You only need to have installed docker because the projects are compiled using docker.
+Because of this, the deployment takes about 3/4 minutes.
 
 • run the script deploy.sh with ./deploy.sh
 
