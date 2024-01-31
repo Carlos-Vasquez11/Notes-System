@@ -25,6 +25,8 @@
 
 ### How to run the project 🤔
 
+• Make sure to not been using the ports listed above and dont have a network created in docker called "my-net". This could bring some problems
+
 • You only need to have installed docker because the projects are compiled using docker.
 Because of this, the deployment takes about 3/4 minutes.
 
